@@ -1,11 +1,64 @@
 .container{
     margin: 2rem;
+}
+#arrow {
+    margin: 2rem 50%;
+}
+#addPhrase {
+    margin: 1rem 2rem;
+    font-size: large;
+}
+select{
+    font-size: large;
+    padding: 0 1rem;
+}
+#input {
+    width: 100%;
+    border: 3px solid black;
+    padding: 3rem 0 3rem 5px;
+}
+#output {
+    width: 100%;
+    border: 3px solid black;
+    padding: 3rem 0 3rem 5px;
+}
+.selectLanguage {
     display: flex;
     flex-direction: row;
-    gap:0.5rem;
+    gap: 1rem;
+    margin: 0 1rem 0.3rem 1rem;
 }
-.col {
-    width: 50%;
-    border: 3px solid black;
-    padding: 5rem 0;
+#selectGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+#addTranslated {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.3rem 5px;
+}
+#addEnglish {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.3rem 5px;
+}
+#addNew {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#form {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+#buttonGroup {
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin: 0 2rem;
 }
