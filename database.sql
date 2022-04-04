@@ -1,27 +1,27 @@
-CREATE TABLE Dictonary
+CREATE TABLE english
 (
-    id              INT unsigned NOT NULL 
+    idEnglish       INT unsigned NOT NULL 
     English         VARCHAR(500) NOT NULL
-    PRIMARY KEY     (id)                                
+    PRIMARY KEY     (idEnglish)                                
 );
 
-CREATE TABLE French 
+CREATE TABLE french 
 (
-    id              INT unsigned NOT NULL
+    idFrench        INT unsigned NOT NULL
     translated      VARCHAR(500) NOT NULL   
-    PRIMARY KEY     (id)      
+    PRIMARY KEY     (idFrench)      
 );
 
-CREATE TABLE Spanish 
+CREATE TABLE spanish 
 (
-    id              INT unsigned NOT NULL
+    idSpanish       INT unsigned NOT NULL
     translated      VARCHAR(500) NOT NULL   
-    PRIMARY KEY     (id)      
+    PRIMARY KEY     (idSpanish)      
 );
 
-CREATE TABLE Chinese 
+CREATE TABLE chinese 
 (
-    id              INT unsigned NOT NULL
+    idChinese       INT unsigned NOT NULL
     translated      VARCHAR(500) NOT NULL   
-    PRIMARY KEY     (id)      
+    PRIMARY KEY     (idChinese)      
 );
