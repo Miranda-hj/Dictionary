@@ -55,10 +55,9 @@ select{
     gap: 2rem;
 }
 #buttonGroup {
-    width: 34%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: start;
     gap: 2rem;
     margin: 0 2rem;
 }
